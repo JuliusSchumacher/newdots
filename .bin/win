@@ -1,0 +1,6 @@
+#! /bin/zsh
+
+#Script to launch windows WM in QEMU
+
+
+qemu-system-x86_64 -enable-kvm -vga std -m 4g /home/factor/VMs/win
